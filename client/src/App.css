@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 3.5rem;
+}
+.main-nav h1 {
+  flex: 1;
+  font-family: "Pacifico", cursive;
+}
+.main-nav div {
+  flex: 2;
+}
+.right-nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.right-nav ul li {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+/*------------------------------ card----------------------- */
+.post-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30rem;
+  height: 60vh;
+  margin: 5rem auto;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+.post-card img {
+  background: no-repeat center center/cover;
+  width: 100%;
+  height: 80%;
+}
+.card-body {
+  border: 1px black solid;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem 0 0 0.5rem;
+}
+/* ------------------------mypage------------------------- */
+.myPage {
+  display: flex;
+  flex-direction: column;
+}
+.myPage div.personal-details {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px black solid;
+  padding-bottom: 5rem;
+}
+.personal-details img {
+  background: no-repeat center center/cover;
+  width: 20%;
+  margin: 2rem;
+  border-radius: 50% 50%;
+}
+.myPage div.photo-gallary {
+  height: 10vh;
+}
+.right-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-details h1 {
+  margin: 0 0 1rem 3rem;
+}
+.right-details div {
+  display: flex;
+}
+.right-details div p {
+  margin: 0 1rem;
+}
+.photo-gallary {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.photo-gallary div {
+  margin: 5rem 2rem;
+  max-width: 400px;
+  height: 200px;
+}
+.photo-gallary div img {
+  width: 100%;
+  background: no-repeat center center/cover;
+}
